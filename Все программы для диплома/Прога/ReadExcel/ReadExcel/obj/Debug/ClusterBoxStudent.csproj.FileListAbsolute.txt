@@ -1,0 +1,276 @@
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+C:\Users\Богдан\Google Диск\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\Google\ДИПЛОМ РЕЗУЛЬТАТЫ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\Google\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\Google\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\Google\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\Google\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\Google\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Google\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\Google\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\Google\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+C:\Users\Богдан\Google Диск\МАГИСТРАТРА\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+d:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\Google Disk\МАГИСТРАТРА\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojResolveAssemblyReference.cache
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojAssemblyReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.GlobalWindow.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.StartWindow.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.YesNo.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.License.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Microsoft.mshtml.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.License.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Microsoft.mshtml.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojAssemblyReference.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.GlobalWindow.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.StartWindow.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.YesNo.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.License.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Microsoft.mshtml.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.xml
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.GlobalWindow.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.StartWindow.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.YesNo.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.Cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojAssemblyReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete

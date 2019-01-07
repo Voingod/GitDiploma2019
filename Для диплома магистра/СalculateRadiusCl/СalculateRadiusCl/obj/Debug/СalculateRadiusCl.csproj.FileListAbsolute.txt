@@ -1,0 +1,14 @@
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\bin\Debug\СalculateRadiusCl.exe.config
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\bin\Debug\СalculateRadiusCl.exe
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\bin\Debug\СalculateRadiusCl.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.csprojAssemblyReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.csproj.CoreCompileInputs.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.exe
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\bin\Debug\СalculateRadiusCl.dll.config
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\bin\Debug\СalculateRadiusCl.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\bin\Debug\СalculateRadiusCl.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.csprojAssemblyReference.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.csproj.CoreCompileInputs.cache
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Для диплома магистра\СalculateRadiusCl\СalculateRadiusCl\obj\Debug\СalculateRadiusCl.pdb

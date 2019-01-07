@@ -1,0 +1,10 @@
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csprojResolveAssemblyReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.Properties.Resources.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csproj.GenerateResource.Cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csproj.CoreCompileInputs.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.pdb
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.UniversalWindowCl.resources
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.dll.config
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.dll
+d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.dll
