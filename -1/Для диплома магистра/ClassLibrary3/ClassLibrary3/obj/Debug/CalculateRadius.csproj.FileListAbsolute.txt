@@ -1,0 +1,6 @@
+C:\Users\Богдан\source\repos\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+C:\Users\Богдан\source\repos\ClassLibrary3\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+C:\Users\Богдан\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\CalculateRadius.csproj.CoreCompileInputs.cache
+C:\Users\Богдан\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+C:\Users\Богдан\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
+C:\Users\Богдан\source\repos\ClassLibrary3\ClassLibrary3\obj\Debug\CalculateRadius.csprojAssemblyReference.cache

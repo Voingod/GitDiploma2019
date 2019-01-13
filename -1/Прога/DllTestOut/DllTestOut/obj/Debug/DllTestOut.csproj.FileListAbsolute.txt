@@ -1,0 +1,10 @@
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\bin\Debug\DllTestOut.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.csprojAssemblyReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.Form1.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.Properties.Resources.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.csproj.GenerateResource.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.csproj.CoreCompileInputs.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\bin\Debug\DllTestOut.dll.config
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\bin\Debug\DllTestOut.dll
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestOut\DllTestOut\obj\Debug\DllTestOut.dll

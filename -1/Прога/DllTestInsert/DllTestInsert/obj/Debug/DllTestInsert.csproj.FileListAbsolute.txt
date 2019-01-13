@@ -1,0 +1,10 @@
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\bin\Debug\DllTestInsert.exe.config
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\bin\Debug\DllTestInsert.exe
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\bin\Debug\DllTestInsert.pdb
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.csprojAssemblyReference.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.Form2.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.Properties.Resources.resources
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.csproj.GenerateResource.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.csproj.CoreCompileInputs.cache
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.exe
+D:\MEGA\1 (10 семестр)\ДИПЛОМ Магистра (2018)\Прога\DllTestInsert\DllTestInsert\obj\Debug\DllTestInsert.pdb

@@ -1,9 +1,0 @@
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\XLS_to_XML.exe.config
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\XLS_to_XML.exe
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\XLS_to_XML.pdb
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\XLS_to_XML.Properties.Resources.resources
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\XLS_to_XML.exe
-C:\Users\Петр\Desktop\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\XLS_to_XML.pdb
