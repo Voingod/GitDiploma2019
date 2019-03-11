@@ -8,3 +8,13 @@ d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все �
 d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.dll.config
 d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.dll
 d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.dll
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.pdb
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csprojAssemblyReference.cache
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.UniversalWindowCl.resources
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.Properties.Resources.resources
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csproj.GenerateResource.cache
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csproj.CoreCompileInputs.cache
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.pdb
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.exe.config
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.exe
+D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.exe
