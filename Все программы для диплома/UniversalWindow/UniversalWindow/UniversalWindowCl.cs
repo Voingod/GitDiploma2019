@@ -18,6 +18,8 @@ namespace UniversalWindow
         DataTable schemaTableGlobal;
         OleDbConnection connGlobal;
         DataTable dtFindStudent = new DataTable();
+        DataTable dtInputFile = new DataTable();
+        List <string> columninfile_global;
         
 
         public UniversalWindowCl()
@@ -31,17 +33,19 @@ namespace UniversalWindow
 
         private void btnCunclusion_Click(object sender, EventArgs e)
         {
-            try
-            {
-                CuclStart();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("btnCunclusion " + ex.Message);
-            }
+            CuclStart();
+            //try
+            //{
+            //    CuclStart();
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("btnCunclusion " + ex.Message);
+            //}
 
 
         }
+
         void CuclStart()
         {
             textBoxConclusion.Text = "Йде кластеризація із записом результатів до файлу";
@@ -70,16 +74,21 @@ namespace UniversalWindow
             }
             
 
-
-            List<string> NameColumninFile = new List<string>();
-            for (int i=0;i<dataGridViewFile.Columns.Count;i++)
-            {
-                NameColumninFile.Add(dataGridViewFile.Columns[i].HeaderText);
-            }
+            
+            //List<string> NameColumninFile = new List<string>();
+            //for (int i=0;i<dataGridViewFile.Columns.Count;i++)
+            //{
+            //    NameColumninFile.Add(dataGridViewFile.Columns[i].HeaderText);
+            //}
+            //foreach(string abc in NameColumninFile)
+            //{
+            //    Console.WriteLine(abc);
+            //}
             string elementinresulttable = (dataGridViewResultTable[0,dataGridViewResultTable.CurrentRow.Index]).Value.ToString();
-            if (NameColumninFile.Contains(elementinresulttable))
+            Console.WriteLine(elementinresulttable);
+            if (columninfile_global.Contains(elementinresulttable))
             {
-                Console.WriteLine("ergerg " + NameColumninFile.IndexOf(elementinresulttable));
+                Console.WriteLine("ergerg " + columninfile_global.IndexOf(elementinresulttable));
             }
 
             double datainresulttable = 0;
@@ -89,20 +98,27 @@ namespace UniversalWindow
             double nextMin = 0;
             int Cl = 0;
             int nextCl = 0;
-
+           
             for (int k = 0; k < dataGridViewFile.Rows.Count; k++)
             {
+                Console.WriteLine("k:"+ k);
+                
                 List<double> SummClasters = new List<double>();
                 for (int j = 1; j < dataGridViewResultTable.Columns.Count; j++)
                 {
+                    Console.WriteLine("j:" + j);
                     summ = 0;
-                    for (int i = 1; i < dataGridViewResultTable.Rows.Count; i++)
+                    for (int i = dataGridViewResultTable.CurrentRow.Index; i < dataGridViewResultTable.Rows.Count; i++)
                     {
+                        Console.WriteLine("i:" + i);
                         datainresulttable = Convert.ToDouble(dataGridViewResultTable[j, i].Value.ToString());
-                        if (dataGridViewFile[NameColumninFile.IndexOf(elementinresulttable) + i - 1, k].Value.ToString().Length != 0)
+                        if ((dtInputFile.Rows[k][columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index].ToString().Length != 0))
                         {
-                            datainfile = Convert.ToDouble(dataGridViewFile[NameColumninFile.IndexOf(elementinresulttable) + i - 1, k].Value.ToString());
+                            Console.WriteLine(columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index+"--");
+                            datainfile = Convert.ToDouble(dtInputFile.Rows[k][columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index].ToString());
+                            //datainfile = Convert.ToDouble(dataGridViewFile[columninfile_global.IndexOf(elementinresulttable) + i - 1, k].Value.ToString());
                             //Console.WriteLine(Math.Pow((datainfile - datainresulttable), 2));
+                           // Console.WriteLine(columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index + " index_index");
                         }
                         else
                         {
@@ -153,8 +169,9 @@ namespace UniversalWindow
                 com.ExecuteNonQuery();
                 conn.Close();
                 // Instert(textBoxFile.Text, (Cl), (min), (nextCl), (nextMin), "Cl,Dist,NextCl,NextDist", tablewithcluster);
-                textBoxConclusion.Text = "Кластеризацію успішно проведено. Результат збережено";
+               
             }
+            textBoxConclusion.Text = "Кластеризацію успішно проведено. Результат збережено";
 
         }
         public void Connection(out OleDbConnection conn, out OleDbCommand cmd, string path)
@@ -343,18 +360,22 @@ namespace UniversalWindow
         {
             try
             {
-                OutoutFileData();
+                OutoutFileData(out dtInputFile);
             }
             catch (Exception ex)
             {
                 Console.WriteLine("btnOutoutFileData " + ex.Message);
             }
         }
-        void OutoutFileData()
+
+
+        void OutoutFileData(out DataTable dtInputFile)
         {
 
             dataGridViewFile.DataSource = new object();
             DataTable dtFileOutput = new DataTable();
+            dtInputFile = new DataTable();
+
             string columninfile = "";
             string columnintableForfile = "";
             String[] s = textBoxVarInList.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
@@ -362,20 +383,26 @@ namespace UniversalWindow
             {
                 columninfile += (s[i].ToString() + ",");
             }
+            Console.WriteLine("columninfile1 "+columninfile);
             for (int i = dataGridViewResultTable.CurrentRow.Index; i < dataGridViewResultTable.RowCount; i++)
             {
                 columnintableForfile += (dataGridViewResultTable[0, i].Value.ToString() + ",");
 
             }
+            Console.WriteLine("columnintableForfile1 " + columnintableForfile);
             columnintableForfile = (columnintableForfile.Remove(columnintableForfile.Length - 1));
-            if(textBoxVarInList.Text=="")
+            Console.WriteLine("columnintableForfile2 " + columnintableForfile);
+            if (textBoxVarInList.Text=="")
             {
                 columninfile = columnintableForfile;
-                
+                Console.WriteLine("columninfile2_true " + columninfile);
+
             }
             else
             {
-                columninfile = (columninfile.Remove(columninfile.Length - 1)) + "," + columnintableForfile;
+                columninfile = (columninfile.Remove(columninfile.Length - 1));
+                //+ "," + columnintableForfile;
+                Console.WriteLine("columninfile2_false " + columninfile);
             }
             
 
@@ -385,8 +412,10 @@ namespace UniversalWindow
             OleDbCommand cmd = new OleDbCommand();
             cmd.Connection = conn;
             OleDbDataAdapter da = new OleDbDataAdapter("Select " + columninfile + " from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
+            OleDbDataAdapter da_intut_table = new OleDbDataAdapter("Select * from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
             da.Fill(dtFileOutput);
             da.Fill(dtFindStudent);
+            da_intut_table.Fill(dtInputFile);
             dataGridViewFile.AllowUserToAddRows = false;
             dataGridViewFile.DataSource = dtFileOutput;
 
@@ -402,14 +431,14 @@ namespace UniversalWindow
         {
             try
             {
-                ListChange();
+                ListChange(out columninfile_global);
             }
             catch (Exception ex)
             {
                 Console.WriteLine("comboBoxListChange " + ex.Message);
             }
         }
-        void ListChange()
+        void ListChange(out List<string> columninfile_global_listchange)
         {
             btnOutputFileData.Enabled = true;
             List<string> ColumnInSheetsGlobal = new List<string>();
@@ -422,14 +451,19 @@ namespace UniversalWindow
 
             OleDbCommand oleDB = new OleDbCommand(select, connGlobal);
             OleDbDataReader reader = oleDB.ExecuteReader();
+            columninfile_global_listchange = new List<string>();
             for (int i = 0; i < reader.FieldCount; i++)
             {
                 ColumnInSheetsGlobal.Add(reader.GetName(i)); // Имя столбца
                 textBoxVarInList.Text += ColumnInSheetsGlobal[i] + Environment.NewLine;
-
+                columninfile_global_listchange.Add(reader.GetName(i));
             }
         }
-
+        /// <summary>
+        /// Обработка поиска студента
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBoxFindStudent_TextChanged(object sender, EventArgs e)
         {
             try
@@ -441,6 +475,9 @@ namespace UniversalWindow
                 Console.WriteLine("textBoxFindStudentTextChanged: " + ex.Message);
             }
         }
+        /// <summary>
+        /// Поиск студента
+        /// </summary>
         void FindStudent()
         {
             List<string> findstudent = new List<string>();
