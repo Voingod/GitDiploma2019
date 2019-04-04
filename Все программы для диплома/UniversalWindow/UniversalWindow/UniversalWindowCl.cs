@@ -57,12 +57,22 @@ namespace UniversalWindow
             conn.Open();
             if (flag != -1)
             {
-                cmd.CommandText = "DROP TABLE [" + tablewithcluster + "];";
-                cmd.ExecuteNonQuery();
+                try
+                {
+                    cmd.CommandText = "DROP TABLE [" + tablewithcluster + "];";
+                    cmd.ExecuteNonQuery();
+                }
+                catch
+                {
+                    Console.WriteLine("обработка исключения");
+                }
+                finally
+                {
+                    cmd.CommandText = "CREATE TABLE [" + tablewithcluster + "] (Cl INT, Dist INT, NextCl INT, NextDist INT);";
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                }
 
-                cmd.CommandText = "CREATE TABLE [" + tablewithcluster + "] (Cl INT, Dist INT, NextCl INT, NextDist INT);";
-                cmd.ExecuteNonQuery();
-                conn.Close();
             }
             else
             {
@@ -307,26 +317,28 @@ namespace UniversalWindow
         {
             try
             {
-
-                OpenFileForCulc(out ExcelSheetsGlobal, out schemaTableGlobal, out connGlobal);
+                string path = "";
+                OpenFileDialog ofd = new OpenFileDialog();
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    path = textBoxFile.Text = ofd.FileName;
+                }
+                OpenFileForCulc(out ExcelSheetsGlobal, out schemaTableGlobal, out connGlobal,path);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("btnOpenFile " + ex.Message);
+                Console.WriteLine("btnOpenFile_Click " + ex.Message);
             }
             
         }
-        void OpenFileForCulc(out List<string> ExcelSheets, out DataTable schemaTable, out OleDbConnection conn)
+        void OpenFileForCulc(out List<string> ExcelSheets, out DataTable schemaTable, out OleDbConnection conn, string path)
         {
-            string path = "";
-            DataTable dt = new DataTable();
+            //  string path = "";
+            // DataTable dt = new DataTable();
 
-            OpenFileDialog ofd = new OpenFileDialog();
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
-                path = textBoxFile.Text = ofd.FileName;
-            }
 
+            comboBoxList.Items.Clear();
+            
             string stringcoon = " Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + path + ";" + "Mode = ReadWrite;" + "Extended Properties='Excel 12.0 Xml;HDR=YES;'";
             conn = new OleDbConnection(stringcoon);
             OleDbCommand cmd = new OleDbCommand();
@@ -372,6 +384,7 @@ namespace UniversalWindow
         void OutoutFileData(out DataTable dtInputFile)
         {
 
+
             dataGridViewFile.DataSource = new object();
             DataTable dtFileOutput = new DataTable();
             dtInputFile = new DataTable();
@@ -411,6 +424,7 @@ namespace UniversalWindow
             OleDbConnection conn = new OleDbConnection(stringcoon);
             OleDbCommand cmd = new OleDbCommand();
             cmd.Connection = conn;
+            conn.Open();
             OleDbDataAdapter da = new OleDbDataAdapter("Select " + columninfile + " from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
             OleDbDataAdapter da_intut_table = new OleDbDataAdapter("Select * from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
             da.Fill(dtFileOutput);
@@ -418,13 +432,45 @@ namespace UniversalWindow
             da_intut_table.Fill(dtInputFile);
             dataGridViewFile.AllowUserToAddRows = false;
             dataGridViewFile.DataSource = dtFileOutput;
+            conn.Close();
+
 
 
 
 
             btnCunclusion.Enabled = true;
-            
+            OpenFileForCulc(out ExcelSheetsGlobal, out schemaTableGlobal, out connGlobal, textBoxFile.Text);
+            Console.WriteLine(comboBoxList.FindStringExact("Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString()));
+            try
+            {
+                if (comboBoxList.FindStringExact("Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString()) != -1)
+                {
+                    DataTable dtRadiusCl = new DataTable();
+                    OleDbConnection connRadiusCl = new OleDbConnection(stringcoon);
+                    OleDbCommand cmdRadiusCl = new OleDbCommand();
+                    cmdRadiusCl.Connection = conn;
+                    conn.Open();
+                    string select = "Dist";
+                    OleDbDataAdapter daRadiusCl = new OleDbDataAdapter("Select " + select + " from[" + "Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
 
+                    daRadiusCl.Fill(dtRadiusCl);
+                    double radius = 0;
+
+                    for(int i=0;i< dtRadiusCl.Rows.Count;i++)
+                    {
+                        radius+=Convert.ToDouble(dtRadiusCl.Rows[i][0].ToString());
+                    }
+                    radius = radius / dtRadiusCl.Rows.Count;
+
+                    Console.WriteLine("radius!!!!!!!!!!!!! " + radius);
+                    conn.Close();
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.StackTrace);
+            }
         }
 
         private void comboBoxList_SelectionChangeCommitted(object sender, EventArgs e)
