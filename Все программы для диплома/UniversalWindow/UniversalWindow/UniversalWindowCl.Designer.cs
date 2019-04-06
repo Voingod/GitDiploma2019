@@ -50,6 +50,8 @@
             this.btnOutputFileData = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnCharacter = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFile)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,7 +136,7 @@
             // textBoxConclusion
             // 
             this.textBoxConclusion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxConclusion.Location = new System.Drawing.Point(385, 406);
+            this.textBoxConclusion.Location = new System.Drawing.Point(385, 438);
             this.textBoxConclusion.Multiline = true;
             this.textBoxConclusion.Name = "textBoxConclusion";
             this.textBoxConclusion.Size = new System.Drawing.Size(364, 64);
@@ -215,7 +217,7 @@
             this.textBoxVarInList.Multiline = true;
             this.textBoxVarInList.Name = "textBoxVarInList";
             this.textBoxVarInList.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxVarInList.Size = new System.Drawing.Size(187, 147);
+            this.textBoxVarInList.Size = new System.Drawing.Size(187, 179);
             this.textBoxVarInList.TabIndex = 17;
             // 
             // comboBoxList
@@ -263,12 +265,35 @@
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseDown);
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.Location = new System.Drawing.Point(428, 391);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(89, 41);
+            this.btnUpdate.TabIndex = 63;
+            this.btnUpdate.Text = "Оновити дані";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnCharacter
+            // 
+            this.btnCharacter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCharacter.Location = new System.Drawing.Point(622, 391);
+            this.btnCharacter.Name = "btnCharacter";
+            this.btnCharacter.Size = new System.Drawing.Size(83, 41);
+            this.btnCharacter.TabIndex = 64;
+            this.btnCharacter.Text = "Таблиця з \r\nхар-ками";
+            this.btnCharacter.UseVisualStyleBackColor = true;
+            // 
             // UniversalWindowCl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(756, 485);
+            this.ClientSize = new System.Drawing.Size(756, 514);
+            this.Controls.Add(this.btnCharacter);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOutputFileData);
             this.Controls.Add(this.comboBoxList);
@@ -325,6 +350,8 @@
         private System.Windows.Forms.Button btnOutputFileData;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnCharacter;
     }
 }
 

@@ -19,8 +19,10 @@ namespace UniversalWindow
         OleDbConnection connGlobal;
         DataTable dtFindStudent = new DataTable();
         DataTable dtInputFile = new DataTable();
+        DataTable dtRadiusCl = new DataTable();
         List <string> columninfile_global;
-        
+        string select_list = "";
+
 
         public UniversalWindowCl()
         {
@@ -49,7 +51,8 @@ namespace UniversalWindow
         void CuclStart()
         {
             textBoxConclusion.Text = "Йде кластеризація із записом результатів до файлу";
-           string tablewithcluster = "Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString();
+            // string tablewithcluster = "Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString();
+            string tablewithcluster = "Cluster"+select_list;
            int flag =(comboBoxList.FindStringExact(tablewithcluster));
             OleDbConnection conn;
             OleDbCommand cmd;
@@ -372,93 +375,104 @@ namespace UniversalWindow
         {
             try
             {
-                OutoutFileData(out dtInputFile);
+                OutoutFileData(out dtInputFile, out dtRadiusCl);
             }
             catch (Exception ex)
             {
                 Console.WriteLine("btnOutoutFileData " + ex.Message);
+                Console.WriteLine("btnOutoutFileData " + ex.StackTrace);
             }
         }
 
 
-        void OutoutFileData(out DataTable dtInputFile)
+        void OutoutFileData(out DataTable dtInputFile, out DataTable dtRadiusCl)
         {
 
 
-            dataGridViewFile.DataSource = new object();
-            DataTable dtFileOutput = new DataTable();
-            dtInputFile = new DataTable();
+                dataGridViewFile.DataSource = new object();
+                DataTable dtFileOutput = new DataTable();
+                dtInputFile = new DataTable();
+                 dtRadiusCl = new DataTable();
 
-            string columninfile = "";
-            string columnintableForfile = "";
-            String[] s = textBoxVarInList.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-            for (int i = 0; i < s.Length; i++)
-            {
-                columninfile += (s[i].ToString() + ",");
-            }
-            Console.WriteLine("columninfile1 "+columninfile);
-            for (int i = dataGridViewResultTable.CurrentRow.Index; i < dataGridViewResultTable.RowCount; i++)
-            {
-                columnintableForfile += (dataGridViewResultTable[0, i].Value.ToString() + ",");
+                string columninfile = "";
+                string columnintableForfile = "";
+                String[] s = textBoxVarInList.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < s.Length; i++)
+                {
+                    columninfile += (s[i].ToString() + ",");
+                }
+                Console.WriteLine("columninfile1 " + columninfile);
+                for (int i = dataGridViewResultTable.CurrentRow.Index; i < dataGridViewResultTable.RowCount; i++)
+                {
+                    columnintableForfile += (dataGridViewResultTable[0, i].Value.ToString() + ",");
 
-            }
-            Console.WriteLine("columnintableForfile1 " + columnintableForfile);
-            columnintableForfile = (columnintableForfile.Remove(columnintableForfile.Length - 1));
-            Console.WriteLine("columnintableForfile2 " + columnintableForfile);
-            if (textBoxVarInList.Text=="")
-            {
-                columninfile = columnintableForfile;
-                Console.WriteLine("columninfile2_true " + columninfile);
+                }
+                Console.WriteLine("columnintableForfile1 " + columnintableForfile);
+                columnintableForfile = (columnintableForfile.Remove(columnintableForfile.Length - 1));
+                Console.WriteLine("columnintableForfile2 " + columnintableForfile);
+                if (textBoxVarInList.Text == "")
+                {
+                    columninfile = columnintableForfile;
+                    Console.WriteLine("columninfile2_true " + columninfile);
 
-            }
-            else
-            {
-                columninfile = (columninfile.Remove(columninfile.Length - 1));
-                //+ "," + columnintableForfile;
-                Console.WriteLine("columninfile2_false " + columninfile);
-            }
-            
-
-           
+                }
+                else
+                {
+                    columninfile = (columninfile.Remove(columninfile.Length - 1));
+                    //+ "," + columnintableForfile;
+                    Console.WriteLine("columninfile2_false " + columninfile);
+                }
             string stringcoon = " Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + textBoxFile.Text + ";" + "Mode = ReadWrite;" + "Extended Properties='Excel 12.0 Xml;HDR=YES;'";
             OleDbConnection conn = new OleDbConnection(stringcoon);
-            OleDbCommand cmd = new OleDbCommand();
-            cmd.Connection = conn;
-            conn.Open();
-            OleDbDataAdapter da = new OleDbDataAdapter("Select " + columninfile + " from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
-            OleDbDataAdapter da_intut_table = new OleDbDataAdapter("Select * from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
-            da.Fill(dtFileOutput);
-            da.Fill(dtFindStudent);
-            da_intut_table.Fill(dtInputFile);
-            dataGridViewFile.AllowUserToAddRows = false;
-            dataGridViewFile.DataSource = dtFileOutput;
-            conn.Close();
+
+            try { 
+
+                OleDbCommand cmd = new OleDbCommand();
+                cmd.Connection = conn;
+                conn.Open();
+                
+                OleDbDataAdapter da = new OleDbDataAdapter("Select " + columninfile + " from[" + select_list + "$]", conn);
+                OleDbDataAdapter da_intut_table = new OleDbDataAdapter("Select * from[" + select_list + "$]", conn);
+                //OleDbDataAdapter da = new OleDbDataAdapter("Select " + columninfile + " from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
+                //OleDbDataAdapter da_intut_table = new OleDbDataAdapter("Select * from[" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
+                da.Fill(dtFileOutput);
+                da.Fill(dtFindStudent);
+                da_intut_table.Fill(dtInputFile);
+                dataGridViewFile.AllowUserToAddRows = false;
+                dataGridViewFile.DataSource = dtFileOutput;
+                conn.Close();
 
 
 
 
 
-            btnCunclusion.Enabled = true;
-            OpenFileForCulc(out ExcelSheetsGlobal, out schemaTableGlobal, out connGlobal, textBoxFile.Text);
-            Console.WriteLine(comboBoxList.FindStringExact("Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString()));
+                btnCunclusion.Enabled = true;
+                OpenFileForCulc(out ExcelSheetsGlobal, out schemaTableGlobal, out connGlobal, textBoxFile.Text);
+                Console.WriteLine("Cluster" + select_list);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.StackTrace);
+            }
             try
             {
-                if (comboBoxList.FindStringExact("Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString()) != -1)
+                if (comboBoxList.Items.Contains("Cluster"+select_list))
                 {
-                    DataTable dtRadiusCl = new DataTable();
+                    
                     OleDbConnection connRadiusCl = new OleDbConnection(stringcoon);
                     OleDbCommand cmdRadiusCl = new OleDbCommand();
                     cmdRadiusCl.Connection = conn;
                     conn.Open();
-                    string select = "Dist";
-                    OleDbDataAdapter daRadiusCl = new OleDbDataAdapter("Select " + select + " from[" + "Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString() + "$]", conn);
+                    string select = "Cl,Dist,NextCl,NextDist";
+                    OleDbDataAdapter daRadiusCl = new OleDbDataAdapter("Select " + select + " from[" + "Cluster" + select_list + "$]", conn);
 
                     daRadiusCl.Fill(dtRadiusCl);
                     double radius = 0;
 
                     for(int i=0;i< dtRadiusCl.Rows.Count;i++)
                     {
-                        radius+=Convert.ToDouble(dtRadiusCl.Rows[i][0].ToString());
+                        radius+=Convert.ToDouble(dtRadiusCl.Rows[i]["Dist"].ToString());
                     }
                     radius = radius / dtRadiusCl.Rows.Count;
 
@@ -475,8 +489,10 @@ namespace UniversalWindow
 
         private void comboBoxList_SelectionChangeCommitted(object sender, EventArgs e)
         {
+            select_list = "";
             try
             {
+                select_list =(comboBoxList.Items[comboBoxList.SelectedIndex].ToString());
                 ListChange(out columninfile_global);
             }
             catch (Exception ex)
@@ -564,6 +580,17 @@ namespace UniversalWindow
         {
             pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
         }
-    
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+           
+            DataTable dtAll = new DataTable();
+            Console.WriteLine(dtAll.Columns.Count);
+            dtAll.Merge(dtInputFile);
+            Console.WriteLine(dtAll.Columns.Count);
+            dtAll.Merge(dtRadiusCl);
+            Console.WriteLine(dtAll.Columns.Count);
+         
+        }
     }
 }
