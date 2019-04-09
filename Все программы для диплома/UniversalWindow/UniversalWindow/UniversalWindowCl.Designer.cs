@@ -49,12 +49,24 @@
             this.comboBoxList = new System.Windows.Forms.ComboBox();
             this.btnOutputFileData = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnCharacter = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.CertificateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PurposeProgramTSMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.LegendToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.опціїToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.RegressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.GlobalClToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.UniversalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ModeClCheckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFile)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnOpenFile
@@ -101,6 +113,7 @@
             this.dataGridViewFile.Name = "dataGridViewFile";
             this.dataGridViewFile.Size = new System.Drawing.Size(364, 274);
             this.dataGridViewFile.TabIndex = 4;
+            this.dataGridViewFile.SelectionChanged += new System.EventHandler(this.dataGridViewFile_SelectionChanged);
             // 
             // dataGridViewResultTable
             // 
@@ -244,7 +257,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(727, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(727, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(22, 22);
             this.pictureBox1.TabIndex = 61;
@@ -252,18 +265,6 @@
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(756, 24);
-            this.menuStrip1.TabIndex = 62;
-            this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseDown);
             // 
             // btnUpdate
             // 
@@ -285,6 +286,108 @@
             this.btnCharacter.TabIndex = 64;
             this.btnCharacter.Text = "Таблиця з \r\nхар-ками";
             this.btnCharacter.UseVisualStyleBackColor = true;
+            this.btnCharacter.Click += new System.EventHandler(this.btnCharacter_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.CertificateToolStripMenuItem,
+            this.ProgramToolStripMenuItem,
+            this.опціїToolStripMenuItem,
+            this.AboutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(756, 24);
+            this.menuStrip1.TabIndex = 65;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // CertificateToolStripMenuItem
+            // 
+            this.CertificateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.PurposeProgramTSMenu,
+            this.LegendToolStripMenuItem});
+            this.CertificateToolStripMenuItem.Name = "CertificateToolStripMenuItem";
+            this.CertificateToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.CertificateToolStripMenuItem.Text = "Довідка";
+            // 
+            // PurposeProgramTSMenu
+            // 
+            this.PurposeProgramTSMenu.Name = "PurposeProgramTSMenu";
+            this.PurposeProgramTSMenu.Size = new System.Drawing.Size(203, 22);
+            this.PurposeProgramTSMenu.Text = "Призначення програми";
+            this.PurposeProgramTSMenu.Click += new System.EventHandler(this.PurposeProgramTSMenu_Click);
+            // 
+            // LegendToolStripMenuItem
+            // 
+            this.LegendToolStripMenuItem.Name = "LegendToolStripMenuItem";
+            this.LegendToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.LegendToolStripMenuItem.Text = "Умовні позначення";
+            this.LegendToolStripMenuItem.Click += new System.EventHandler(this.LegendToolStripMenuItem_Click);
+            // 
+            // ProgramToolStripMenuItem
+            // 
+            this.ProgramToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ManualToolStripMenuItem});
+            this.ProgramToolStripMenuItem.Name = "ProgramToolStripMenuItem";
+            this.ProgramToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.ProgramToolStripMenuItem.Text = "Програма";
+            // 
+            // ManualToolStripMenuItem
+            // 
+            this.ManualToolStripMenuItem.Name = "ManualToolStripMenuItem";
+            this.ManualToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
+            this.ManualToolStripMenuItem.Text = "Інструкція користувача";
+            this.ManualToolStripMenuItem.Click += new System.EventHandler(this.ManualToolStripMenuItem_Click);
+            // 
+            // опціїToolStripMenuItem
+            // 
+            this.опціїToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.RegressToolStripMenuItem,
+            this.GlobalClToolStripMenuItem,
+            this.UniversalToolStripMenuItem,
+            this.ModeClCheckToolStripMenuItem});
+            this.опціїToolStripMenuItem.Name = "опціїToolStripMenuItem";
+            this.опціїToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.опціїToolStripMenuItem.Text = "Опції";
+            // 
+            // RegressToolStripMenuItem
+            // 
+            this.RegressToolStripMenuItem.Name = "RegressToolStripMenuItem";
+            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.RegressToolStripMenuItem.Text = "Регресійне дослідження";
+            this.RegressToolStripMenuItem.Click += new System.EventHandler(this.RegressToolStripMenuItem_Click);
+            // 
+            // GlobalClToolStripMenuItem
+            // 
+            this.GlobalClToolStripMenuItem.Name = "GlobalClToolStripMenuItem";
+            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.GlobalClToolStripMenuItem.Text = "Одинична кластеризація";
+            this.GlobalClToolStripMenuItem.Click += new System.EventHandler(this.GlobalClToolStripMenuItem_Click);
+            // 
+            // UniversalToolStripMenuItem
+            // 
+            this.UniversalToolStripMenuItem.Name = "UniversalToolStripMenuItem";
+            this.UniversalToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.UniversalToolStripMenuItem.Text = "Універсальна кластеризація";
+            this.UniversalToolStripMenuItem.Click += new System.EventHandler(this.UniversalToolStripMenuItem_Click);
+            // 
+            // ModeClCheckToolStripMenuItem
+            // 
+            this.ModeClCheckToolStripMenuItem.Name = "ModeClCheckToolStripMenuItem";
+            this.ModeClCheckToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.ModeClCheckToolStripMenuItem.Text = "Вибір режиму кластеризації";
+            this.ModeClCheckToolStripMenuItem.Click += new System.EventHandler(this.ModeClCheckToolStripMenuItem_Click);
+            // 
+            // AboutToolStripMenuItem
+            // 
+            this.AboutToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
+            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.AboutToolStripMenuItem.Text = "Про нас";
+            this.AboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
             // UniversalWindowCl
             // 
@@ -292,9 +395,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(756, 514);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnCharacter);
             this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnOutputFileData);
             this.Controls.Add(this.comboBoxList);
             this.Controls.Add(this.textBoxVarInList);
@@ -314,7 +418,6 @@
             this.Controls.Add(this.textBoxFile);
             this.Controls.Add(this.btnCunclusion);
             this.Controls.Add(this.btnOpenFile);
-            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UniversalWindowCl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -322,6 +425,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFile)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResultTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -349,9 +454,20 @@
         private System.Windows.Forms.ComboBox comboBoxList;
         private System.Windows.Forms.Button btnOutputFileData;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnCharacter;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem CertificateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PurposeProgramTSMenu;
+        private System.Windows.Forms.ToolStripMenuItem LegendToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ProgramToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ManualToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem опціїToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem RegressToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem GlobalClToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem UniversalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ModeClCheckToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem AboutToolStripMenuItem;
     }
 }
 

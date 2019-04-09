@@ -8,21 +8,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ReadExcel;
 
 namespace UniversalWindow
 {
     public partial class UniversalWindowCl : Form
     {
+        
+       
 
-        List<string> ExcelSheetsGlobal;
+         List<string> ExcelSheetsGlobal;
         DataTable schemaTableGlobal;
         OleDbConnection connGlobal;
         DataTable dtFindStudent = new DataTable();
         DataTable dtInputFile = new DataTable();
         DataTable dtRadiusCl = new DataTable();
+        DataTable dtAll = new DataTable();
         List <string> columninfile_global;
         string select_list = "";
-
+        String[] s;
+        string path_character_table = "";
+        List<double> Rad;
+        
+        bool textboxfindstudent_change = true;
 
         public UniversalWindowCl()
         {
@@ -31,10 +39,12 @@ namespace UniversalWindow
             btnOutputFileData.Enabled = false;
             btnCunclusion.Enabled = false;
             comboBoxList.Enabled = false;
+            btnUpdate.Enabled = false;
         }
 
         private void btnCunclusion_Click(object sender, EventArgs e)
         {
+            
             CuclStart();
             //try
             //{
@@ -375,7 +385,8 @@ namespace UniversalWindow
         {
             try
             {
-                OutoutFileData(out dtInputFile, out dtRadiusCl);
+                OutoutFileData(out dtInputFile, out dtRadiusCl, out s);
+                btnUpdate.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -385,7 +396,7 @@ namespace UniversalWindow
         }
 
 
-        void OutoutFileData(out DataTable dtInputFile, out DataTable dtRadiusCl)
+        List<double> OutoutFileData(out DataTable dtInputFile, out DataTable dtRadiusCl, out String[] s)
         {
 
 
@@ -396,7 +407,7 @@ namespace UniversalWindow
 
                 string columninfile = "";
                 string columnintableForfile = "";
-                String[] s = textBoxVarInList.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+               s = textBoxVarInList.Text.Split(new String[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
                 for (int i = 0; i < s.Length; i++)
                 {
                     columninfile += (s[i].ToString() + ",");
@@ -455,6 +466,7 @@ namespace UniversalWindow
                 MessageBox.Show(ex.Message);
                 MessageBox.Show(ex.StackTrace);
             }
+           
             try
             {
                 if (comboBoxList.Items.Contains("Cluster"+select_list))
@@ -468,23 +480,48 @@ namespace UniversalWindow
                     OleDbDataAdapter daRadiusCl = new OleDbDataAdapter("Select " + select + " from[" + "Cluster" + select_list + "$]", conn);
 
                     daRadiusCl.Fill(dtRadiusCl);
-                    double radius = 0;
+                   
+                    Rad = new List<double>();
+                    List<int> Cl = new List<int>();
 
-                    for(int i=0;i< dtRadiusCl.Rows.Count;i++)
+                    for (int i = 0; i < dtRadiusCl.Rows.Count; i++)
                     {
-                        radius+=Convert.ToDouble(dtRadiusCl.Rows[i]["Dist"].ToString());
-                    }
-                    radius = radius / dtRadiusCl.Rows.Count;
 
-                    Console.WriteLine("radius!!!!!!!!!!!!! " + radius);
+                        Cl.Add(Convert.ToInt32(dtRadiusCl.Rows[i]["Cl"].ToString()));
+
+                    }
+
+                    int min_cl = Cl.Min();
+                    int max_cl = Cl.Max();
+                    for (int j = min_cl; j <= max_cl; j++)
+                    {
+                        List<double> RadAverage = new List<double>();
+                        for (int i = 0; i < dtRadiusCl.Rows.Count; i++)
+                        {
+
+                            if (dtRadiusCl.Rows[i]["Cl"].ToString().Contains(j.ToString()))
+                            {
+                                RadAverage.Add(Convert.ToDouble(dtRadiusCl.Rows[i]["Dist"].ToString()));
+                            }
+                        }
+                        Rad.Add(Math.Round(RadAverage.Average(),2));
+                    }
+                    //radius = radius / dtRadiusCl.Rows.Count;
+                    foreach(double r in Rad)
+                    {
+                        Console.WriteLine("radius!!!!!!!!!!!!! " + r);
+                    }
+                    
                     conn.Close();
                 }
+                
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
                 MessageBox.Show(ex.StackTrace);
             }
+            return Rad;
         }
 
         private void comboBoxList_SelectionChangeCommitted(object sender, EventArgs e)
@@ -542,6 +579,7 @@ namespace UniversalWindow
         /// </summary>
         void FindStudent()
         {
+            textboxfindstudent_change = false;
             List<string> findstudent = new List<string>();
             for(int i=0;i< dataGridViewFile.Columns.Count; i++)
             {
@@ -549,12 +587,12 @@ namespace UniversalWindow
             }
             if(findstudent.Contains("ПІБ"))
             {
-                DataView dv = new DataView(dtFindStudent);//Создание новой таблицы
+                DataView dv = new DataView(dtAll);//Создание новой таблицы
                 dv.RowFilter = string.Format("ПІБ like '%{0}%'", textBoxFindStudent.Text);//Поиск в столбце ПІБ по значению, введенному в textBox1
                 dataGridViewFile.DataSource = dv.ToTable();//Заполнение таблицы
             }
 
-
+            textboxfindstudent_change = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -583,14 +621,213 @@ namespace UniversalWindow
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-           
-            DataTable dtAll = new DataTable();
-            Console.WriteLine(dtAll.Columns.Count);
-            dtAll.Merge(dtInputFile);
-            Console.WriteLine(dtAll.Columns.Count);
-            dtAll.Merge(dtRadiusCl);
-            Console.WriteLine(dtAll.Columns.Count);
+
+            try
+            {
+
+                dtAll = dtInputFile.Copy();
+                dtAll.Merge(dtRadiusCl);
+
+                Console.WriteLine(dtAll.Columns.Count);
+
+                for (int i = 0; i < dtAll.Rows.Count / 2; i++)
+                {
+                    dtAll.Rows[i][dtAll.Columns.Count - 1] = dtAll.Rows[dtAll.Rows.Count / 2 + i][dtAll.Columns.Count - 1];
+                    dtAll.Rows[i][dtAll.Columns.Count - 2] = dtAll.Rows[dtAll.Rows.Count / 2 + i][dtAll.Columns.Count - 2];
+                    dtAll.Rows[i][dtAll.Columns.Count - 3] = dtAll.Rows[dtAll.Rows.Count / 2 + i][dtAll.Columns.Count - 3];
+                    dtAll.Rows[i][dtAll.Columns.Count - 4] = dtAll.Rows[dtAll.Rows.Count / 2 + i][dtAll.Columns.Count - 4];
+
+
+                    DataRow dr = dtAll.Rows[dtAll.Rows.Count / 2 + i];
+                    dr.Delete();
+
+                }
+
+                dataGridViewFile.DataSource = dtAll;
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+
+
+        }
+        private string Character(OleDbConnection conn, string sex, string read, int i)
+        {
+            conn.Open();
+            OleDbCommand command1 = new OleDbCommand("Select * from " + sex + "", conn);
+            OleDbDataReader dr = command1.ExecuteReader();
+            // conn.Close();
+            while (dr.Read())
+            {
+                read = Convert.ToString(dr[i - 1]);
+            }
+            dr.Close();
+            return read;
+        }
+
+        private string ReadFile(string read, int i, string path)
+        {
+
+
+            string stringcoon = " Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + path + ";" + "Extended Properties='Excel 12.0 Xml;HDR=YES;IMEX=1;'";
+            OleDbConnection conn = new OleDbConnection(stringcoon);
+
+            try
+            {
+                if(rbtnMan.Checked)
+                {
+                    read = Character(conn, "[" + rbtnMan.Text + "$]", read, i);
+                    conn.Close();
+                }
+                else
+                {
+                    read = Character(conn, "[" + rbtnWoman.Text + "$]", read, i);
+                    conn.Close();
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show("Файл з рекомендаціями не знайдено");
+                read = "\nДані відснутні";
+            }
+
+            return read;
+        }
+
+        private void btnCharacter_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    path_character_table = ofd.FileName;
+                }
+                if (rbtnMan.Checked)
+                {
+                    textBoxConclusion.Text = "Таблицю з характеристиками " + "\"" + rbtnMan.Text + "\"" + " успішно завантажено";
+                }
+                else
+                {
+                    textBoxConclusion.Text = "Таблицю з характеристиками " + "\"" + rbtnWoman.Text + "\"" + " успішно завантажено";
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
          
         }
+
+        private void dataGridViewFile_SelectionChanged(object sender, EventArgs e)
+        {
+
+            try
+            {
+
+                if (path_character_table != "" && dataGridViewFile.Columns.Contains("Dist") && dataGridViewFile.Columns.Contains("Cl") &&
+                    dataGridViewFile.Columns.Contains("NextCl") && dataGridViewFile.Columns.Contains("NextDist") && textboxfindstudent_change)
+                {
+                    string read = "";
+
+                    int columnCl = (dataGridViewFile.Columns["Cl"].Index);
+                    int columnDist = (dataGridViewFile.Columns["Dist"].Index);
+                    int columnNextDist = (dataGridViewFile.Columns["NextDist"].Index);
+                    int columnNextCl = (dataGridViewFile.Columns["NextCl"].Index);
+                    int row = (dataGridViewFile.CurrentCell.RowIndex);
+                    double radius = Rad[Convert.ToInt32(dataGridViewFile[columnCl, row].Value.ToString())-1];
+
+                    int columnSurname = (dataGridViewFile.Columns["ПІБ"].Index);
+
+                    Console.WriteLine(radius + " " + dataGridViewFile[columnDist, row].Value.ToString());
+
+                    // Console.WriteLine(Convert.ToInt32(dataGridViewFile[columnCl, row].Value.ToString()));
+                    if (radius > Convert.ToDouble(dataGridViewFile[columnDist, row].Value.ToString()))
+                    {
+                        MessageBox.Show("Студент " + dataGridViewFile[columnSurname, row].Value.ToString() +
+                            " знаходиться у кластері " + dataGridViewFile[columnCl, row].Value.ToString() + "\n" +
+                            "Мінімальна відстань становить " + dataGridViewFile[columnDist, row].Value.ToString() + "\n\n" +
+
+                            ReadFile(read, Convert.ToInt32(dataGridViewFile[columnCl, row].Value.ToString()), path_character_table));
+                    }
+                    else
+                    {
+                        MessageBox.Show("Студент " + dataGridViewFile[columnSurname, row].Value.ToString() +
+                           " знаходиться у кластері " + dataGridViewFile[columnCl, row].Value.ToString() + "\n" +
+                           "Мінімальна відстань становить " + dataGridViewFile[columnDist, row].Value.ToString() + "\n\n" +
+
+                           ReadFile(read, Convert.ToInt32(dataGridViewFile[columnCl, row].Value.ToString()), path_character_table) + "\n\n" +
+                           "Радіус кластера не перевищує вектор направлення студента: " + radius + "<" + dataGridViewFile[columnDist, row].Value.ToString() + "\n\n" +
+                           "Необхідно вивести додаткові характеристики \n\n" +
+                           "Наступний кластер після оптимального :" + dataGridViewFile[columnNextCl, row].Value.ToString() + "\n" +
+                            "Субмінімальна відстань становить " + dataGridViewFile[columnNextDist, row].Value.ToString() + "\n\n" +
+
+                            ReadFile(read, Convert.ToInt32(dataGridViewFile[columnNextCl, row].Value.ToString()), path_character_table));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+               Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+            }
+
+        private void PurposeProgramTSMenu_Click(object sender, EventArgs e)
+        {
+            //About aboutProgramm = new About();
+            //aboutProgramm.Show();
+        }
+
+        private void LegendToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Legend legend = new Legend();
+            legend.Show();
+        }
+
+        private void ManualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Instruction instruct = new Instruction();
+            instruct.Show();
+        }
+
+        private void RegressToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //VectorFormStart vectorFormStart = new VectorFormStart();
+            //vectorFormStart.Show();
+        }
+
+        private void GlobalClToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            Hide();
+        }
+
+        private void UniversalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UniversalWindowCl universalWindow = new UniversalWindowCl();
+            universalWindow.Show();
+            Hide();
+        }
+
+        private void ModeClCheckToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StartWindow startWindow = new StartWindow();
+            startWindow.Show();
+            Hide();
+        }
+
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutUS us = new AboutUS();
+            us.Show();
+        }
     }
-}
+    }
+

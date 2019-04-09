@@ -274,3 +274,37 @@ d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все �
 d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
 D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojAssemblyReference.cache
 D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.dll.config
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.License.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Microsoft.mshtml.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.pdb
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Common.xml
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.Pdf.xml
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Spire.XLS.xml
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojAssemblyReference.cache
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\Interop.ADOX.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.ResolveComReference.cache
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.GlobalWindow.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.About.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.AboutUS.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Form1.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoBD.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InfoTable.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.InstAutoSurveySave.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Instruction.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Legend.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.Properties.Resources.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.StartWindow.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.YesNo.resources
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.cache
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.dll
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
