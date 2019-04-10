@@ -274,8 +274,6 @@ d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все �
 d:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
 D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csprojAssemblyReference.cache
 D:\MEGA\1 (10 семестр)\ДИПЛОМ 2018 Версия для SVN\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete
-D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.dll.config
-D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.dll
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.pdb
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\Excel.dll
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ICSharpCode.SharpZipLib.dll
@@ -306,5 +304,7 @@ D:\GitDiploma2019\Все программы для диплома\Прога\Rea
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.GenerateResource.cache
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CoreCompileInputs.cache
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ClusterBoxStudent.csproj.CopyComplete
-D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.dll
 D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.pdb
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe.config
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\bin\Debug\ReadExcel.exe
+D:\GitDiploma2019\Все программы для диплома\Прога\ReadExcel\ReadExcel\obj\Debug\ReadExcel.exe

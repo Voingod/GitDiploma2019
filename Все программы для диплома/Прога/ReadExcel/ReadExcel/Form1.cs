@@ -470,7 +470,7 @@ namespace ReadExcel
                         }
                     }
 
-                    if ((Math.Round((middlePoint / 18), 2) > work.radiusCl[cluster - 1]) || (nextMin < ((min * 0.16) + min)))
+                    if ((min > work.radiusCl[cluster - 1]))
                     {
                         Console.WriteLine("StudentRadius: "+ (Math.Round((middlePoint / 18), 2))+" ClusterRadius: "+ work.radiusCl[cluster - 1]);
                         for (int i = 0; i < SummClasters.Count; i++)

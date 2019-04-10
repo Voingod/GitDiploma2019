@@ -44,23 +44,27 @@ namespace UniversalWindow
 
         private void btnCunclusion_Click(object sender, EventArgs e)
         {
-            
-            CuclStart();
+            try
+            {
+                CuclStart();
+                btnUpdate.Enabled = true;
+            }
             //try
             //{
             //    CuclStart();
             //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine("btnCunclusion " + ex.Message);
-            //}
+            catch (Exception ex)
+            {
+                Console.WriteLine("btnCunclusion " + ex.Message);
+                Console.WriteLine("btnCunclusion " + ex.StackTrace);
+            }
 
 
         }
 
         void CuclStart()
         {
-            textBoxConclusion.Text = "Йде кластеризація із записом результатів до файлу";
+            
             // string tablewithcluster = "Cluster" + comboBoxList.Items[comboBoxList.SelectedIndex].ToString();
             string tablewithcluster = "Cluster"+select_list;
            int flag =(comboBoxList.FindStringExact(tablewithcluster));
@@ -89,10 +93,18 @@ namespace UniversalWindow
             }
             else
             {
-
-                cmd.CommandText = "CREATE TABLE [" + tablewithcluster + "] (Cl INT, Dist INT, NextCl INT, NextDist INT);";
-                cmd.ExecuteNonQuery();
-                conn.Close();
+                try
+                {
+                    cmd.CommandText = "CREATE TABLE [" + tablewithcluster + "] (Cl INT, Dist INT, NextCl INT, NextDist INT);";
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.StackTrace);
+                    MessageBox.Show("Перед початком роботи закрийте базу даних");
+                }
 
             }
             
@@ -124,20 +136,20 @@ namespace UniversalWindow
            
             for (int k = 0; k < dataGridViewFile.Rows.Count; k++)
             {
-                Console.WriteLine("k:"+ k);
+               // Console.WriteLine("k:"+ k);
                 
                 List<double> SummClasters = new List<double>();
                 for (int j = 1; j < dataGridViewResultTable.Columns.Count; j++)
                 {
-                    Console.WriteLine("j:" + j);
+                   // Console.WriteLine("j:" + j);
                     summ = 0;
                     for (int i = dataGridViewResultTable.CurrentRow.Index; i < dataGridViewResultTable.Rows.Count; i++)
                     {
-                        Console.WriteLine("i:" + i);
+                       // Console.WriteLine("i:" + i);
                         datainresulttable = Convert.ToDouble(dataGridViewResultTable[j, i].Value.ToString());
                         if ((dtInputFile.Rows[k][columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index].ToString().Length != 0))
                         {
-                            Console.WriteLine(columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index+"--");
+                            //Console.WriteLine(columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index+"--");
                             datainfile = Convert.ToDouble(dtInputFile.Rows[k][columninfile_global.IndexOf(elementinresulttable) + i - dataGridViewResultTable.CurrentRow.Index].ToString());
                             //datainfile = Convert.ToDouble(dataGridViewFile[columninfile_global.IndexOf(elementinresulttable) + i - 1, k].Value.ToString());
                             //Console.WriteLine(Math.Pow((datainfile - datainresulttable), 2));
@@ -386,7 +398,7 @@ namespace UniversalWindow
             try
             {
                 OutoutFileData(out dtInputFile, out dtRadiusCl, out s);
-                btnUpdate.Enabled = true;
+                
             }
             catch (Exception ex)
             {
@@ -513,6 +525,7 @@ namespace UniversalWindow
                     }
                     
                     conn.Close();
+                    UpdateDate();
                 }
                 
             }
@@ -597,6 +610,8 @@ namespace UniversalWindow
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            StartWindow start = new StartWindow();
+            start.Show();
             Close();
         }
 
@@ -621,7 +636,21 @@ namespace UniversalWindow
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            try
+            {
+                OutoutFileData(out dtInputFile, out dtRadiusCl, out s);
 
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("btnOutoutFileData " + ex.Message);
+                Console.WriteLine("btnOutoutFileData " + ex.StackTrace);
+            }
+          
+
+        }
+        void UpdateDate()
+        {
             try
             {
 
@@ -651,7 +680,6 @@ namespace UniversalWindow
                 Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.StackTrace);
             }
-
 
         }
         private string Character(OleDbConnection conn, string sex, string read, int i)
@@ -778,11 +806,7 @@ namespace UniversalWindow
             }
             }
 
-        private void PurposeProgramTSMenu_Click(object sender, EventArgs e)
-        {
-            //About aboutProgramm = new About();
-            //aboutProgramm.Show();
-        }
+
 
         private void LegendToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -796,11 +820,7 @@ namespace UniversalWindow
             instruct.Show();
         }
 
-        private void RegressToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //VectorFormStart vectorFormStart = new VectorFormStart();
-            //vectorFormStart.Show();
-        }
+
 
         private void GlobalClToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -827,6 +847,19 @@ namespace UniversalWindow
         {
             AboutUS us = new AboutUS();
             us.Show();
+        }
+
+        private void menuStrip1_MouseDown_1(object sender, MouseEventArgs e)
+        {
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
+        }
+
+
+        private void btnCunclusion_MouseDown(object sender, MouseEventArgs e)
+        {
+            textBoxConclusion.Text = "Йде кластеризація із записом результатів до файлу";
         }
     }
     }

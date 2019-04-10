@@ -16,7 +16,6 @@ D:\GitDiploma2019\Все программы для диплома\UniversalWindo
 D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csproj.CoreCompileInputs.cache
 D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.pdb
 D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.exe.config
-D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.exe
 D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\obj\Debug\UniversalWindow.csproj.CopyComplete
 D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.dll.config
 D:\GitDiploma2019\Все программы для диплома\UniversalWindow\UniversalWindow\bin\Debug\UniversalWindow.dll

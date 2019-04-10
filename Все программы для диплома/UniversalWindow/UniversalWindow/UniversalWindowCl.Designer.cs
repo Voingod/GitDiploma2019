@@ -53,12 +53,10 @@
             this.btnCharacter = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.CertificateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.PurposeProgramTSMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.LegendToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.опціїToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.RegressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GlobalClToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.UniversalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ModeClCheckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -90,6 +88,7 @@
             this.btnCunclusion.Text = "Порахувати";
             this.btnCunclusion.UseVisualStyleBackColor = true;
             this.btnCunclusion.Click += new System.EventHandler(this.btnCunclusion_Click);
+            this.btnCunclusion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnCunclusion_MouseDown);
             // 
             // textBoxFile
             // 
@@ -303,22 +302,15 @@
             this.menuStrip1.Size = new System.Drawing.Size(756, 24);
             this.menuStrip1.TabIndex = 65;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseDown_1);
             // 
             // CertificateToolStripMenuItem
             // 
             this.CertificateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.PurposeProgramTSMenu,
             this.LegendToolStripMenuItem});
             this.CertificateToolStripMenuItem.Name = "CertificateToolStripMenuItem";
             this.CertificateToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.CertificateToolStripMenuItem.Text = "Довідка";
-            // 
-            // PurposeProgramTSMenu
-            // 
-            this.PurposeProgramTSMenu.Name = "PurposeProgramTSMenu";
-            this.PurposeProgramTSMenu.Size = new System.Drawing.Size(203, 22);
-            this.PurposeProgramTSMenu.Text = "Призначення програми";
-            this.PurposeProgramTSMenu.Click += new System.EventHandler(this.PurposeProgramTSMenu_Click);
             // 
             // LegendToolStripMenuItem
             // 
@@ -345,20 +337,12 @@
             // опціїToolStripMenuItem
             // 
             this.опціїToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.RegressToolStripMenuItem,
             this.GlobalClToolStripMenuItem,
             this.UniversalToolStripMenuItem,
             this.ModeClCheckToolStripMenuItem});
             this.опціїToolStripMenuItem.Name = "опціїToolStripMenuItem";
             this.опціїToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.опціїToolStripMenuItem.Text = "Опції";
-            // 
-            // RegressToolStripMenuItem
-            // 
-            this.RegressToolStripMenuItem.Name = "RegressToolStripMenuItem";
-            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
-            this.RegressToolStripMenuItem.Text = "Регресійне дослідження";
-            this.RegressToolStripMenuItem.Click += new System.EventHandler(this.RegressToolStripMenuItem_Click);
             // 
             // GlobalClToolStripMenuItem
             // 
@@ -458,12 +442,10 @@
         private System.Windows.Forms.Button btnCharacter;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem CertificateToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem PurposeProgramTSMenu;
         private System.Windows.Forms.ToolStripMenuItem LegendToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ProgramToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ManualToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem опціїToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem RegressToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem GlobalClToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem UniversalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ModeClCheckToolStripMenuItem;
