@@ -107,13 +107,14 @@ namespace ReadExcel
                     if (rbtCl8.Checked)
                     {
                         n = 8;
-                        radiusCl = new double[] { 18.22, 21.79, 17.30, 23.25, 17.57, 20.42, 16.43, 18.82 };
+                        radiusCl = new double[] { 878.08, 1425.58, 1043.88, 1085.48, 1477.13, 757.28, 1048.59, 800.77 };
+
 
                     }
                     else if (rbtCl4.Checked)
                     {
                         n = 5;
-                        radiusCl = new double[] { 19.16, 17.39, 21.39, 16.7, 17.72 };
+                        radiusCl = new double[] { 923.51, 1009.39, 1402.19, 1451.66, 1660.35 };
                     }
 
 
@@ -133,12 +134,13 @@ namespace ReadExcel
                     if (rbtCl8.Checked)
                     {
                         n = 7;
-                        radiusCl = new double[] { 25.21, 19.56, 19.32, 27.09, 28.24, 22.81, 22.72 };
+                        radiusCl = new double[] { 1520.09, 1285.33, 1628.77, 1204.14, 1948.87, 2290.51, 1381.65 };
                     }
                     else if (rbtCl4.Checked)
                     {
                         n = 5;
-                        radiusCl = new double[] { 23.92, 29.4, 25.59, 24.40, 25.66 };
+                        radiusCl = new double[] { 1362.65, 1966.39, 1290.68, 1659.76, 2756.1 };
+
                     }
 
 

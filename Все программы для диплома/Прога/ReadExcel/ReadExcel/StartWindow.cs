@@ -59,6 +59,7 @@ namespace ReadExcel
 
         private void UniversalWindowToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Hide();
             UniversalWindowCl universalWindow = new UniversalWindowCl();
             universalWindow.Show();
         }
