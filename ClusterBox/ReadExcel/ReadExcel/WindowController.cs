@@ -20,6 +20,7 @@ namespace ClusterBox
         public static YesNo yesNoWindow;
         public static UniversalWindow universalWindow;
         public static RegressionWindow vectorWindow;
+        public static CuclClusterChange clusterChangeWindow;
 
         public static void ShowStartWindow()
         {
@@ -31,7 +32,16 @@ namespace ClusterBox
             else
                 startWindow.Show();
         }
-
+        public static void ShowChangeWindow()
+        {
+            if (clusterChangeWindow == null)
+            {
+                clusterChangeWindow = new CuclClusterChange();
+                clusterChangeWindow.Show();
+            }
+            else
+                clusterChangeWindow.Show();
+        }
         public static void ShowMonoWindow()
         {
             if (monoWindow == null)

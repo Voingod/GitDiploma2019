@@ -54,6 +54,7 @@
             this.UniversalWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GlobalClToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RegressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ClusterChangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CertificateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PurposeProgramTSMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.InstructionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -318,7 +319,8 @@
             this.MonoClToolStripMenuItem,
             this.UniversalWindowToolStripMenuItem,
             this.GlobalClToolStripMenuItem,
-            this.RegressToolStripMenuItem});
+            this.RegressToolStripMenuItem,
+            this.ClusterChangeToolStripMenuItem});
             this.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem";
             this.OptionsToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.OptionsToolStripMenuItem.Text = "Дослідження";
@@ -326,30 +328,37 @@
             // MonoClToolStripMenuItem
             // 
             this.MonoClToolStripMenuItem.Name = "MonoClToolStripMenuItem";
-            this.MonoClToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.MonoClToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.MonoClToolStripMenuItem.Text = "Одинична кластеризація";
             this.MonoClToolStripMenuItem.Click += new System.EventHandler(this.btnMono_Click);
             // 
             // UniversalWindowToolStripMenuItem
             // 
             this.UniversalWindowToolStripMenuItem.Name = "UniversalWindowToolStripMenuItem";
-            this.UniversalWindowToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.UniversalWindowToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.UniversalWindowToolStripMenuItem.Text = "Універсальна кластеризація";
             this.UniversalWindowToolStripMenuItem.Click += new System.EventHandler(this.btnUniversal_Click);
             // 
             // GlobalClToolStripMenuItem
             // 
             this.GlobalClToolStripMenuItem.Name = "GlobalClToolStripMenuItem";
-            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.GlobalClToolStripMenuItem.Text = "Глобальна кластеризація";
             this.GlobalClToolStripMenuItem.Click += new System.EventHandler(this.btnGlobal_Click);
             // 
             // RegressToolStripMenuItem
             // 
             this.RegressToolStripMenuItem.Name = "RegressToolStripMenuItem";
-            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.RegressToolStripMenuItem.Text = "Регресійне дослідження";
             this.RegressToolStripMenuItem.Click += new System.EventHandler(this.btnRegress_Click);
+            // 
+            // ClusterChangeToolStripMenuItem
+            // 
+            this.ClusterChangeToolStripMenuItem.Name = "ClusterChangeToolStripMenuItem";
+            this.ClusterChangeToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.ClusterChangeToolStripMenuItem.Text = "Аналіз міжкластерних переходів";
+            this.ClusterChangeToolStripMenuItem.Click += new System.EventHandler(this.ClusterChangeToolStripMenuItem_Click);
             // 
             // CertificateToolStripMenuItem
             // 
@@ -629,6 +638,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBoxList;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
+        private System.Windows.Forms.ToolStripMenuItem ClusterChangeToolStripMenuItem;
     }
 }
 

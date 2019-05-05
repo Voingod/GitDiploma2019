@@ -142,6 +142,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.ClusterChangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabPageDB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewExcel)).BeginInit();
@@ -236,7 +237,8 @@
             this.MonoWindowToolStripMenuItem,
             this.UniversalWindowToolStripMenuItem,
             this.GlobalClToolStripMenuItem,
-            this.RegressToolStripMenuItem});
+            this.RegressToolStripMenuItem,
+            this.ClusterChangeToolStripMenuItem});
             this.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem";
             this.OptionsToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.OptionsToolStripMenuItem.Text = "Дослідження";
@@ -244,28 +246,28 @@
             // MonoWindowToolStripMenuItem
             // 
             this.MonoWindowToolStripMenuItem.Name = "MonoWindowToolStripMenuItem";
-            this.MonoWindowToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.MonoWindowToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.MonoWindowToolStripMenuItem.Text = "Одинична кластеризація";
             this.MonoWindowToolStripMenuItem.Click += new System.EventHandler(this.btnMono_Click);
             // 
             // UniversalWindowToolStripMenuItem
             // 
             this.UniversalWindowToolStripMenuItem.Name = "UniversalWindowToolStripMenuItem";
-            this.UniversalWindowToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.UniversalWindowToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.UniversalWindowToolStripMenuItem.Text = "Універсальна кластеризація";
             this.UniversalWindowToolStripMenuItem.Click += new System.EventHandler(this.btnUniversal_Click);
             // 
             // GlobalClToolStripMenuItem
             // 
             this.GlobalClToolStripMenuItem.Name = "GlobalClToolStripMenuItem";
-            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.GlobalClToolStripMenuItem.Text = "Глобальна кластеризація";
             this.GlobalClToolStripMenuItem.Click += new System.EventHandler(this.btnGlobal_Click);
             // 
             // RegressToolStripMenuItem
             // 
             this.RegressToolStripMenuItem.Name = "RegressToolStripMenuItem";
-            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.RegressToolStripMenuItem.Text = "Регресійне дослідження";
             this.RegressToolStripMenuItem.Click += new System.EventHandler(this.btnRegress_Click);
             // 
@@ -1919,6 +1921,13 @@
             this.tabControl1.Size = new System.Drawing.Size(693, 513);
             this.tabControl1.TabIndex = 58;
             // 
+            // ClusterChangeToolStripMenuItem
+            // 
+            this.ClusterChangeToolStripMenuItem.Name = "ClusterChangeToolStripMenuItem";
+            this.ClusterChangeToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.ClusterChangeToolStripMenuItem.Text = "Аналіз міжкластерних переходів";
+            this.ClusterChangeToolStripMenuItem.Click += new System.EventHandler(this.ClusterChangeToolStripMenuItem_Click);
+            // 
             // MonoWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2108,6 +2117,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel16;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.ToolStripMenuItem ClusterChangeToolStripMenuItem;
     }
 }
 

@@ -677,5 +677,11 @@ namespace ClusterBox
                 rbtCl8.Text = "7";
             }
         }
+
+        private void ClusterChangeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            WindowController.ShowChangeWindow();
+        }
     }
 }

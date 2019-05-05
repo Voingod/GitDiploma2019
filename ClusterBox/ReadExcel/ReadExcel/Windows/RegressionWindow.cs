@@ -1341,5 +1341,11 @@ namespace ClusterBox
                 rbtCl8.Text = "8";
             }
         }
+
+        private void ClusterChangeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            WindowController.ShowChangeWindow();
+        }
     }
 }

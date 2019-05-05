@@ -53,6 +53,7 @@
             this.LegendToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.ClusterChangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -202,7 +203,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 273F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 269F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(657, 269);
             this.tableLayoutPanel2.TabIndex = 73;
             // 
@@ -260,7 +261,8 @@
             this.MonoClToolStripMenuItem,
             this.UniversalWindowToolStripMenuItem,
             this.GlobalClToolStripMenuItem,
-            this.RegressToolStripMenuItem});
+            this.RegressToolStripMenuItem,
+            this.ClusterChangeToolStripMenuItem});
             this.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem";
             this.OptionsToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
             this.OptionsToolStripMenuItem.Text = "Дослідження";
@@ -268,28 +270,28 @@
             // MonoClToolStripMenuItem
             // 
             this.MonoClToolStripMenuItem.Name = "MonoClToolStripMenuItem";
-            this.MonoClToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.MonoClToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.MonoClToolStripMenuItem.Text = "Одинична кластеризація";
             this.MonoClToolStripMenuItem.Click += new System.EventHandler(this.btnMono_Click);
             // 
             // UniversalWindowToolStripMenuItem
             // 
             this.UniversalWindowToolStripMenuItem.Name = "UniversalWindowToolStripMenuItem";
-            this.UniversalWindowToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.UniversalWindowToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.UniversalWindowToolStripMenuItem.Text = "Універсальна кластеризація";
             this.UniversalWindowToolStripMenuItem.Click += new System.EventHandler(this.btnUniversal_Click);
             // 
             // GlobalClToolStripMenuItem
             // 
             this.GlobalClToolStripMenuItem.Name = "GlobalClToolStripMenuItem";
-            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.GlobalClToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.GlobalClToolStripMenuItem.Text = "Глобальна кластеризація";
             this.GlobalClToolStripMenuItem.Click += new System.EventHandler(this.btnGlobal_Click);
             // 
             // RegressToolStripMenuItem
             // 
             this.RegressToolStripMenuItem.Name = "RegressToolStripMenuItem";
-            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.RegressToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
             this.RegressToolStripMenuItem.Text = "Регресійне дослідження";
             this.RegressToolStripMenuItem.Click += new System.EventHandler(this.btnRegress_Click);
             // 
@@ -346,6 +348,13 @@
             this.menuStrip1.Size = new System.Drawing.Size(693, 24);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // ClusterChangeToolStripMenuItem
+            // 
+            this.ClusterChangeToolStripMenuItem.Name = "ClusterChangeToolStripMenuItem";
+            this.ClusterChangeToolStripMenuItem.Size = new System.Drawing.Size(260, 22);
+            this.ClusterChangeToolStripMenuItem.Text = "Аналіз міжкластерних переходів";
+            this.ClusterChangeToolStripMenuItem.Click += new System.EventHandler(this.ClusterChangeToolStripMenuItem_Click);
             // 
             // StartWindow
             // 
@@ -404,5 +413,6 @@
         private System.Windows.Forms.ToolStripMenuItem LegendToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem ClusterChangeToolStripMenuItem;
     }
 }

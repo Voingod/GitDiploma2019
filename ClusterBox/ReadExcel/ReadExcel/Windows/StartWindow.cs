@@ -66,5 +66,11 @@ namespace ClusterBox
             this.Visible = false;
             WindowController.ExitIfNoWindow();
         }
+
+        private void ClusterChangeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            WindowController.ShowChangeWindow();
+        }
     }
 }

@@ -173,6 +173,12 @@
     </Compile>
     <Compile Include="TextPath.cs" />
     <Compile Include="WindowController.cs" />
+    <Compile Include="Windows\CuclClusterChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\CuclClusterChange.designer.cs">
+      <DependentUpon>CuclClusterChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Windows\UniversalWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Information\About.resx">
       <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Information\AboutUS.resx">
       <DependentUpon>AboutUS.cs</DependentUpon>
@@ -226,6 +233,9 @@
     <EmbeddedResource Include="Resources\Character.xlsx" />
     <EmbeddedResource Include="Windows\StartWindow.resx">
       <DependentUpon>StartWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\CuclClusterChange.resx">
+      <DependentUpon>CuclClusterChange.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\UniversalWindow.resx">
       <DependentUpon>UniversalWindow.cs</DependentUpon>
