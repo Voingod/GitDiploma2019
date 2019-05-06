@@ -102,6 +102,9 @@ namespace ClusterBox
                 numUpCl.Enabled = true;
                 numUpVec.Enabled = true;
                 textBoxFindStudent.Enabled = true;
+           
+            btnCL.Enabled = true;
+            btnCountInCl.Enabled = true;
 
             }
             #endregion
@@ -442,7 +445,7 @@ namespace ClusterBox
         private void btnCleanCL_M_Click(object sender, EventArgs e)
         {
             textBoxFindStudent.Text = "";
-            textBoxFindStudent.Enabled = false;
+          //  textBoxFindStudent.Enabled = false;
             dataGridViewDist.DataSource = new object();
             dataGridViewMatrixCl.Rows.Clear();
             dataGridViewCountInCl.Rows.Clear();
